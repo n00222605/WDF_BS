@@ -1,9 +1,76 @@
 $primary: #66B966;
 $secondary: #B9706E;
-$success: #dc7800;
+$success: #a85d02;
 $info: #F2F0EB;
 $warning: #334865;
 $light: white;
 $dark: black;
+
+.swirl-background {
+    background-image: url(/images/swirl_background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 895px;
+    opacity: 0.5;
+}
+
+.menu-buttons button {
+    border-width: 2px;
+}
+
+.menu-buttons button i {
+    color: #334865;
+}
+
+.img-height {
+    height: 350px;
+}
+
+.bg-info {
+    background-color: #17a2b8;
+}
+
+
+.custom-padding {
+    margin-top: 275px;
+    padding-bottom: 300px;
+}
+
+.custom-font-size {
+    font-size: 70px;
+}
+
+.image-grid {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    height: 300px;
+}
+
+.grid-image {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.img1 {
+    top: -50px;
+    left: calc(2 * (100% / 12));
+    z-index: 3;
+}
+
+.img2 {
+    top: 200px;
+    left: calc(4 * (100% / 12));
+    z-index: 2;
+}
+
+.img3 {
+    top: 450px;
+    left: calc(3 * (100% / 12));
+    z-index: 1;
+}
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
