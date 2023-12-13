@@ -12063,3 +12063,14 @@ textarea.form-control-lg {
   width: 100%;
   object-fit: cover; /* This property ensures the image covers the entire container */
 }
+
+/* Custom CSS class for white icons */
+.white_icon .bi {
+  color: white;
+}
+
+hr {
+  border: none;
+  height: 3px; /* Adjust thickness as needed */
+  background-color: #202020; /* Change color if desired */
+}
