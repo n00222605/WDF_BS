@@ -1,151 +1,5 @@
 @charset "UTF-8";
-.swirl-background {
-  background-image: url(/images/swirl_background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  max-height: 895px;
-}
 
-.menu-buttons button {
-  border-width: 2px;
-}
-
-.menu-buttons button i {
-  color: #334865;
-}
-
-/* Styling for the menu-hover class when hovered */
-.menu-hover:hover {
-  border: none;
-  color: #f2f0eb;
-  background-color: #B9706E;
-}
-
-.img-height {
-  height: 350px;
-}
-
-.bg-info {
-  background-color: #17a2b8;
-}
-
-.custom-padding {
-  margin-top: 275px;
-  padding-bottom: 300px;
-}
-
-.custom-font-size {
-  font-size: 70px;
-}
-
-.carousel-item img {
-  height: 500px; /* Set height as needed */
-  width: 33.3333%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-.carousel-caption {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  padding: 15px;
-  text-align: left;
-}
-
-.carousel-caption h5, .carousel-caption .h5,
-.carousel-caption p {
-  color: #fff; /* Text color for caption */
-  margin: 0;
-}
-
-.bike-background {
-  background-image: url(/images/bike_background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  max-height: 833px;
-}
-
-.custom-h2 {
-  font-size: 44px;
-}
-
-/* Define the styles for the 3images class */
-.threeimages {
-  max-width: 90%; /* Set maximum width to ensure the image is responsive */
-  height: auto; /* Allow the image to maintain its aspect ratio */
-  /* Additional styles can be added here */
-}
-
-/* CSS for the arrow_button class */
-.arrow_button {
-  color: #334865;
-  /* Additional styling if needed */
-}
-
-/* Custom CSS class for the image */
-.join_image {
-  max-width: 100%;
-  height: auto;
-  max-height: 446px; /* Set your desired maximum height */
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover; /* This property ensures the image covers the entire container */
-}
-
-/* Custom CSS class for white icons */
-.white_icon .bi {
-  color: white;
-}
-
-hr {
-  border: none;
-  height: 3px; /* Adjust thickness as needed */
-  background-color: #202020; /* Change color if desired */
-}
-
-input[type=radio].form-check-input {
-  background-color: white;
-}
-
-/* Customize the color for unchecked checkboxes */
-input[type=checkbox].form-check-input {
-  background-color: white;
-}
-
-/* Customize the color for checked radio buttons */
-input[type=radio].form-check-input:checked {
-  background-color: blue;
-}
-
-/* Customize the color for checked checkboxes */
-input[type=checkbox].form-check-input:checked {
-  background-color: blue;
-}
-
-.main-sandwich {
-  height: 400px;
-}
-
-.img-map {
-  height: 450px;
-  width: 450px;
-}
-
-/* .map-background {
-  background-image: url(/images/map-background.jpg); 
-  background-repeat: repeat;
-  background-size: 612px 612px;
-  background-position: center;
-} */
-.map-background {
-  background-image: url(/images/background2.jpg);
-  background-repeat: repeat;
-  background-size: 724px 900px;
-  background-position: center;
-}
 
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
@@ -12123,4 +11977,145 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
+  
 }/*# sourceMappingURL=main.css.map */
+.swirl-background {
+  background-image: url(/images/swirl_background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 895px;
+}
+
+.menu-buttons button {
+  border-width: 2px;
+}
+
+.menu-buttons button i {
+  color: #334865;
+}
+
+.menu-hover:hover {
+  border: none;
+  color: #f2f0eb;
+  background-color: #B9706E;
+}
+
+.img-height {
+  height: 350px;
+}
+
+.bg-info {
+  background-color: #17a2b8;
+}
+
+.custom-padding {
+  margin-top: 275px;
+  padding-bottom: 300px;
+}
+
+.custom-font-size {
+  font-size: 70px;
+}
+
+.carousel-item img {
+  height: 500px; /* Set height as needed */
+  width: 33.3333%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px;
+  text-align: left;
+}
+
+.carousel-caption h5, .carousel-caption .h5,
+.carousel-caption p {
+  color: #fff; /* Text color for caption */
+  margin: 0;
+}
+
+.bike-background {
+  background-image: url(/images/bike_background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 833px;
+}
+
+.custom-h2 {
+  font-size: 44px;
+}
+
+.threeimages {
+  max-width: 90%;
+  height: auto;
+}
+
+.arrow_button {
+  color: #334865;
+}
+
+.join_image {
+  max-width: 100%;
+  height: auto;
+  max-height: 446px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.white_icon .bi {
+  color: white;
+}
+
+hr {
+  border: none;
+  height: 3px;
+  background-color: #202020;
+}
+
+input[type=radio].form-check-input {
+  background-color: white;
+}
+
+/* Customize the color for unchecked checkboxes */
+input[type=checkbox].form-check-input {
+  background-color: white;
+}
+
+/* Customize the color for checked radio buttons */
+input[type=radio].form-check-input:checked {
+  background-color: blue;
+}
+
+/* Customize the color for checked checkboxes */
+input[type=checkbox].form-check-input:checked {
+  background-color: blue;
+}
+
+.main-sandwich {
+  height: 400px;
+}
+
+.img-map {
+  height: 450px;
+  width: 450px;
+}
+
+/* .map-background {
+  background-image: url(/images/map-background.jpg); 
+  background-repeat: repeat;
+  background-size: 612px 612px;
+  background-position: center;
+} */
+.map-background {
+  background-image: url(/images/background2.jpg);
+  background-repeat: repeat;
+  background-size: 724px 900px;
+  background-position: center;
+}
