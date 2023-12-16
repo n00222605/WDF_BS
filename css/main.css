@@ -11993,6 +11993,13 @@ textarea.form-control-lg {
   color: #334865;
 }
 
+/* Styling for the menu-hover class when hovered */
+.menu-hover:hover {
+  border: none;
+  color: #f2f0eb;
+  background-color: #B9706E;
+}
+
 .img-height {
   height: 350px;
 }
@@ -12073,4 +12080,46 @@ hr {
   border: none;
   height: 3px; /* Adjust thickness as needed */
   background-color: #202020; /* Change color if desired */
+}
+
+
+input[type="radio"].form-check-input {
+  background-color: white;
+}
+
+/* Customize the color for unchecked checkboxes */
+input[type="checkbox"].form-check-input {
+  background-color: white;
+}
+
+/* Customize the color for checked radio buttons */
+input[type="radio"].form-check-input:checked {
+  background-color: blue;
+}
+
+/* Customize the color for checked checkboxes */
+input[type="checkbox"].form-check-input:checked {
+  background-color: blue;
+}
+
+.main-sandwich {
+  height: 400px;
+}
+
+.img-map {
+  height: 450px;
+  width: 450px;
+}
+
+/* .map-background {
+  background-image: url(/images/map-background.jpg); 
+  background-repeat: repeat;
+  background-size: 612px 612px;
+  background-position: center;
+} */
+.map-background {
+  background-image: url(/images/background2.jpg); 
+  background-repeat: repeat;
+  background-size: 724px 900px;
+  background-position: center;
 }
